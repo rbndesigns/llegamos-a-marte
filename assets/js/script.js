@@ -8,7 +8,7 @@ var config = {
             }
         },
         color: {
-            value: ["#ffffff", "#ffffffff", "#F9F871", "#dfa02dff"]
+            value: ["#ffffff", "#FF6F91", "#F9F871", "#D65DB1"]
         },
         shape: {
             type: "circle",
