@@ -136,15 +136,11 @@ function initGame() {
   let gameStarted = false;
   let spawnIntervalId = null;
 
-  // ===============================
-  // FOTOS REALES DE MINIONS AQUÍ ↓
-  // ===============================
   const minionPhotos = [
     "https://ik.imagekit.io/gemagarrido/404%20marte/minion1.png",
     "https://ik.imagekit.io/gemagarrido/404%20marte/minion2.png",
   ];
-  // Puedes añadir todas las que quieras:
-  // "assets/img/minions/minion4.webp", ...
+  // puedes añadir más URLs de imágenes si quieres
 
   function updateScore() {
     scoreSpan.textContent = score;
