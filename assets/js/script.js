@@ -165,6 +165,10 @@ function initGame() {
     minion.alt = "Minion";
     minion.classList.add("minion-sprite");
 
+    // Rotación aleatoria ligera entre -15deg y 15deg — se usa la variable CSS --rot
+    const rot = (Math.random() * 30 - 15).toFixed(1); // string con 1 decimal
+    minion.style.setProperty("--rot", rot + "deg");
+
     const topPercent = 10 + Math.random() * 70;
     const leftPercent = 5 + Math.random() * 90;
 
@@ -173,12 +177,12 @@ function initGame() {
 
     minion.addEventListener("click", function () {
       if (!minion.classList.contains("clicked")) {
+        // activamos clase que aplica transform: rotate(var(--rot)) scale(0.7) y opacity:0
         minion.classList.add("clicked");
         score++;
         updateScore();
 
-        minion.style.transform = "scale(0.7)";
-        minion.style.opacity = "0";
+        // eliminamos tras la animación
         setTimeout(() => minion.remove(), 150);
 
         if (score >= maxScore) endGame();
@@ -187,7 +191,8 @@ function initGame() {
 
     setTimeout(() => {
       if (!minion.classList.contains("clicked")) {
-        minion.style.opacity = "0";
+        // aplicamos clase que hace fade-out manteniendo rotación
+        minion.classList.add("missed");
         setTimeout(() => minion.remove(), 150);
       }
     }, 2500);

@@ -134,15 +134,32 @@ body {
 /* Minions en pantalla (pixel art) */
 .minion-sprite {
   position: absolute;
-  width: 80px;
+  /* aumentamos ligeramente el tamaño de los minions */
+  width: 112px; /* antes 96px - aumento adicional */
   image-rendering: pixelated;
   cursor: pointer;
+  /* usamos una variable CSS --rot para controlar la rotación aleatoria
+     y combinamos transformaciones en las clases (.clicked, :active) */
+  transform: rotate(var(--rot, 0deg));
   transition: transform 0.15s ease, opacity 0.2s ease;
 }
 
 .minion-sprite:active {
-  transform: scale(0.9);
+  /* conservar la rotación al pulsar */
+  transform: rotate(var(--rot, 0deg)) scale(0.9);
   opacity: 0.7;
+}
+
+/* estado después de hacer click (desaparecer manteniendo rotación) */
+.minion-sprite.clicked {
+  transform: rotate(var(--rot, 0deg)) scale(0.7);
+  opacity: 0;
+}
+
+/* minion que se va por timeout sin ser pulsado */
+.minion-sprite.missed {
+  opacity: 0;
+  transform: rotate(var(--rot, 0deg));
 }
 
 /* Pantalla final: Marte recuperado */
@@ -249,7 +266,8 @@ body {
     min-height: calc(100vh - 120px);
   }
   .minion-sprite {
-    width: 60px;
+    /* responsive: también aumentamos proporcionalmente en pantallas pequeñas */
+    width: 84px; /* antes 72px - aumento adicional */
   }
   .mars-img {
     width: 220px;
