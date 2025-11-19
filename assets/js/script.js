@@ -139,7 +139,10 @@ function initGame() {
   // ===============================
   // FOTOS REALES DE MINIONS AQUÍ ↓
   // ===============================
-  const minionPhotos = ["assets/img/minion1.png", "assets/img/minion2.png"];
+  const minionPhotos = [
+    "https://ik.imagekit.io/gemagarrido/404%20marte/minion1.png",
+    "https://ik.imagekit.io/gemagarrido/404%20marte/minion2.png",
+  ];
   // Puedes añadir todas las que quieras:
   // "assets/img/minions/minion4.webp", ...
 
