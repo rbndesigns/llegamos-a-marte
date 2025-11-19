@@ -1,40 +1,92 @@
-# README / Memoria del Proyecto
+README / Memoria del Proyecto
+404s to Mars! — Los Minions han robado Marte
 
-1. Título del Proyecto
+1. Descripción del proyecto
 
-404s to Mars! — LOS MINIONS HAN ROBADO MARTE*
+Este proyecto transforma una tradicional página de error 404 en una experiencia interactiva y narrativa. En lugar de generar frustración, el usuario entra en una misión: los Minions han robado Marte, y su objetivo es recuperarlo superando un minijuego sencillo pero dinámico.
+La web está desarrollada con HTML, CSS y JavaScript, integrando elementos visuales pixel art, animaciones y un contador de interacción.
 
 2. Concepto clave
 
-La idea que buscábamos era crear un universo narrativo en el que los *minions* han robado Marte. A partir de esta premisa desarrollamos un concepto creativo que mezcla humor, ciencia ficción y elementos visuales llamativos para construir una experiencia web temática y divertida.
+El proyecto combina humor, estética retro y narrativa gamificada. Se parte de una premisa absurda y divertida —los Minions roban Marte— para convertir un error web en un pequeño juego temático.
+El tono general es informal, brillante y humorístico, aprovechando la iconografía reconocible del universo Minion.
 
 3. Colaboradores
 
-- Rubén Mardomingo
-- Gema Garrido
-- Alba Martínez
-- Jose Rayón
-- Diego Fernández 
-- Elena Talegón
+Este proyecto fue realizado de forma conjunta por:
 
-4. Justificación de diseño
+Rubén Mardomingo
 
-En esta composición, los colores predominantes son los tonos amarillos y naranjas, elegidos estratégicamente por su asociación con los Minions y el planeta Marte. Estos colores no solo refuerzan la identidad visual lúdica y reconocible del personaje, sino que también aportan calidez y dinamismo a la composición.
+Gema Garrido
 
-La disposición del Minion está pensada para generar una sensación de interacción con el espacio visual: se coloca de manera que parece entrar desde el borde inferior de la pantalla, dejando visible únicamente la cabeza, cuya forma simula la de un planeta. Esta elección busca crear un efecto de sorpresa y profundidad, invitando al espectador a explorar la composición.
+Alba Martínez
 
-Finalmente, la composición se completa con un título en la parte superior, que encabeza y estructura la pieza, asegurando que el mensaje principal se perciba de forma clara y jerárquica. La combinación de colores, personajes y disposición espacial refuerza la narrativa visual y la coherencia del diseño.
+Jose Rayón
 
-5. Objetivos
+Diego Fernández
 
-- Atraer y mantener la atención del usuario: El uso de colores llamativos (amarillo y naranja) y del personaje Minion crea un impacto visual inmediato que capta la atención, evitando que el usuario se frustre al encontrarse con un error.
+Elena Talegón
 
-- Transmitir diversión y cercanía: La aparición del Minion “asomando” desde el borde de la pantalla genera un efecto lúdico y amigable, transformando una situación negativa (error 404) en una experiencia positiva y memorable.
+Cada integrante aportó ideas y trabajo en diferentes fases del desarrollo, desde el diseño visual hasta la implementación del minijuego, la estética pixelada y la estructura narrativa interactiva.
 
-- Guiar al usuario de manera intuitiva: La composición con un título claro en la parte superior proporciona jerarquía visual y orientación, ayudando al usuario a entender que ha llegado a una página inexistente y motivándolo a volver a la navegación principal del sitio.
+4. Funcionamiento de la web
+   Homepage
 
-6. Conclusiones
+Presenta un Minion en pixel art asomando desde la parte inferior.
 
-Aunque el tiempo para coordinar el trabajo colaborativo fue muy limitado, la propuesta presentada se basó en una idea original y logró un resultado bastante divertido y atractivo visualmente. El uso de los colores amarillos y naranjas, junto con la disposición del Minion asomando desde el borde de la pantalla, permitió crear una página 404 llamativa y con personalidad. A pesar de las limitaciones de tiempo, el diseño consiguió transmitir cercanía, diversión y claridad, demostrando que incluso con recursos limitados se pueden obtener resultados creativos y efectivos
+Al hacer hover, el personaje se eleva ligeramente.
 
+El título principal “ERROR 404” aparece en tipografía pixelada.
 
+Un botón indica al usuario que puede comenzar la misión.
+
+Minijuego
+
+Se activa al pulsar el botón de la homepage.
+
+Minions en pixel art aparecen aleatoriamente por la pantalla.
+
+El usuario debe hacer clic en ellos para sumar puntos.
+
+Un contador registra cuántos Minions ha atrapado.
+
+Final del juego
+
+Al alcanzar 10 clics, aparece Marte como pantalla final.
+
+El mensaje indica que el usuario ha logrado “recuperar” el planeta.
+
+Un botón de “Jugar de nuevo” recarga directamente la página.
+
+5. Justificación de diseño
+
+El diseño se articula alrededor de tres elementos principales:
+
+Colores
+
+Predominan amarillos y naranjas, fusionando los colores icónicos de los Minions con la estética de Marte.
+
+Tipografía y estilo
+
+La tipografía pixelada refuerza el tono retro-gaming, ayudando a cohesionar la experiencia del minijuego con la homepage.
+
+Interactividad
+
+Las animaciones ligeras (hover, aparición aleatoria, feedback al clic) buscan dinamizar la experiencia y hacerla más inmersiva sin recargar el diseño.
+
+6. Objetivos del proyecto
+
+Transformar una situación negativa (error 404) en una experiencia positiva.
+
+Reforzar la navegación mediante un lenguaje visual claro y humorístico.
+
+Añadir un componente interactivo que sorprenda al usuario.
+
+Crear una estética coherente basada en pixel art y narrativa retro.
+
+Aplicar conocimientos de HTML, CSS y JavaScript en un proyecto funcional.
+
+7. Conclusiones
+
+A pesar de un tiempo limitado para coordinar el desarrollo, el resultado final es una propuesta sólida, divertida y funcional. La página consigue convertir un error común en una experiencia memorable, gracias a su estética pixelada, la narrativa humorística y la mecánica del minijuego.
+El proyecto demuestra cómo, con creatividad y un enfoque lúdico, incluso una página 404 puede volverse sorprendente y efectiva visualmente.
