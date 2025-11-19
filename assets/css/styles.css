@@ -26,19 +26,15 @@ body {
   text-align: center;
 }
 
-.error-text {
-  font-size: 120px;
-  color: #ff6b35;
-  font-weight: 900;
+.error-text-img {
+  width: 80%;
+  max-width: 900px;
+  height: auto;
   margin: 0;
-  line-height: 0.9;
-  letter-spacing: -5px;
   animation: bounce 2s infinite;
   transform: perspective(500px) rotateX(15deg);
-  text-shadow: 0 1px 0 #d94e2a, 0 2px 0 #d94e2a, 0 3px 0 #b83c1f,
-    0 4px 0 #b83c1f, 0 5px 0 #8a2c17, 0 6px 0 #8a2c17, 0 7px 0 #5c1d0f,
-    0 8px 0 #5c1d0f, 0 9px 0 #5c1d0f, 0 10px 10px rgba(0, 0, 0, 0.4),
-    0 15px 20px rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.4))
+    drop-shadow(0 15px 20px rgba(0, 0, 0, 0.3));
 }
 
 .subtitle {
@@ -76,8 +72,9 @@ body {
 }
 
 @media (max-width: 768px) {
-  .error-text {
-    font-size: 60px;
+  .error-text-img {
+    width: 90%;
+    max-width: 500px;
   }
   .subtitle {
     font-size: 36px;
