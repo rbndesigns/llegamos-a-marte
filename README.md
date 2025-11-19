@@ -1,65 +1,40 @@
 # README / Memoria del Proyecto
 
-## 1. Título del Proyecto
+1. Título del Proyecto
 
 404s to Mars! — LOS MINIONS HAN ROBADO MARTE*
 
-## 0. Enunciado de la Práctica
-
-Semana de Marte. Hackatón web.
-La entrega será evaluable en la parte correspondiente a los ejercicios de clase. Habrá que incluir un documento con el nombre de los miembros del grupo. Todos los miembros del grupo deben hacer la entrega en el campus virtual. Si alguno no lo entrega, el resto serán evaluados, pero no participarán en el concurso. No se aceptarán entregas fuera de plazo.
-
-## 2. Descripción General
-
-## Colaboradores
-
-Rubén Mardomingo, Gema Garrido, Alba Martínez, Jose Rayon, Diego Fernández y Elena Talegón
+2. Concepto clave
 
 La idea que buscábamos era crear un universo narrativo en el que los *minions* han robado Marte. A partir de esta premisa desarrollamos un concepto creativo que mezcla humor, ciencia ficción y elementos visuales llamativos para construir una experiencia web temática y divertida.
 
-## 3. Objetivos
+3. Colaboradores
 
-* Objetivo 1
-* Objetivo 2
-* Objetivo 3
+- Rubén Mardomingo
+- Gema Garrido
+- Alba Martínez
+- Jose Rayón
+- Diego Fernández 
+- Elena Talegón
 
-## 4. Justificación
+4. Justificación de diseño
 
-Explica por qué surge el proyecto, qué problema resuelve o qué necesidad cubre.
+En esta composición, los colores predominantes son los tonos amarillos y naranjas, elegidos estratégicamente por su asociación con los Minions y el planeta Marte. Estos colores no solo refuerzan la identidad visual lúdica y reconocible del personaje, sino que también aportan calidez y dinamismo a la composición.
 
-## 5. Tecnologías y Herramientas Utilizadas
+La disposición del Minion está pensada para generar una sensación de interacción con el espacio visual: se coloca de manera que parece entrar desde el borde inferior de la pantalla, dejando visible únicamente la cabeza, cuya forma simula la de un planeta. Esta elección busca crear un efecto de sorpresa y profundidad, invitando al espectador a explorar la composición.
 
-* Herramienta o lenguaje 1
-* Herramienta o lenguaje 2
-* Herramienta o lenguaje 3
+Finalmente, la composición se completa con un título en la parte superior, que encabeza y estructura la pieza, asegurando que el mensaje principal se perciba de forma clara y jerárquica. La combinación de colores, personajes y disposición espacial refuerza la narrativa visual y la coherencia del diseño.
 
-## 6. Metodología
+5. Objetivos
 
-Explica cómo se desarrolló el proyecto: fases, organización del trabajo, enfoque de diseño, etc.
+- Atraer y mantener la atención del usuario: El uso de colores llamativos (amarillo y naranja) y del personaje Minion crea un impacto visual inmediato que capta la atención, evitando que el usuario se frustre al encontrarse con un error.
 
-## 7. Desarrollo del Proyecto
+- Transmitir diversión y cercanía: La aparición del Minion “asomando” desde el borde de la pantalla genera un efecto lúdico y amigable, transformando una situación negativa (error 404) en una experiencia positiva y memorable.
 
-Describe paso a paso el proceso de creación.
+- Guiar al usuario de manera intuitiva: La composición con un título claro en la parte superior proporciona jerarquía visual y orientación, ayudando al usuario a entender que ha llegado a una página inexistente y motivándolo a volver a la navegación principal del sitio.
 
-### 7.1 Investigación
+6. Conclusiones
 
-### 7.2 Conceptualización
+Aunque el tiempo para coordinar el trabajo colaborativo fue muy limitado, la propuesta presentada se basó en una idea original y logró un resultado bastante divertido y atractivo visualmente. El uso de los colores amarillos y naranjas, junto con la disposición del Minion asomando desde el borde de la pantalla, permitió crear una página 404 llamativa y con personalidad. A pesar de las limitaciones de tiempo, el diseño consiguió transmitir cercanía, diversión y claridad, demostrando que incluso con recursos limitados se pueden obtener resultados creativos y efectivos
 
-### 7.3 Diseño / Desarrollo Técnico
-
-### 7.4 Pruebas y Ajustes
-
-## 8. Resultados
-
-Incluye capturas, enlaces, mockups o explicación del resultado final.
-
-## 9. Conclusiones
-
-Reflexiones finales, aprendizajes obtenidos y posibles mejoras futuras.
-
-## 10. Créditos
-
-* Autoras y autores del grupo: Rubén Mardomingo, Gema Garrido, Alba Martínez, Jose Rayon, Diego Fernández y Elena Talegón
-* Colaboradores: *(si aplica)*
-* Fecha: *(coloca la fecha de entrega)*
 
