@@ -3,20 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Error 404</title>
+    <title>Error 404 - Marte robado</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Fuente tipo pixel -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="particle"></div>
-    <div class="container">
-      <img src="assets/img/titulo-404.png" alt="ERROR 404" class="error-text-img" />
-      <!-- <p class="subtitle">¡Los Minions han robado Marte!</p> -->
-      <img
-        src="assets/img/ojosminion.png"
-        alt="Ojos del Minion"
-        class="minion"
-      />
-    </div>
+
+    <!-- Sección principal -->
+    <header class="container">
+      <h1 class="error-title">ERROR 404</h1>
+
+      <p class="subtitle">¡Los Minions han robado Marte!</p>
+
+      <div class="scroll-hint">
+        <p class="scroll-text">Haz scroll para recuperar Marte</p>
+        <div class="arrow-down"></div>
+      </div>
+    </header>
+
+    <!-- Sección del minijuego -->
+    <main>
+      <section id="game-section" class="game-section">
+        <div id="game" class="game-area">
+          <div class="game-ui">
+            <p class="game-instruction">
+              ¡Pulsa todos los Minions que puedas antes de que huyan!
+            </p>
+            <p class="game-score">
+              Minions atrapados:
+              <span id="score">0</span>
+              / 10
+            </p>
+          </div>
+
+          <!-- Final del juego -->
+          <div id="mars-end" class="mars-end hidden">
+            <img
+              src="assets/img/marte.png"
+              alt="Has recuperado Marte"
+              class="mars-img"
+            />
+            <p class="mars-text">¡Has recuperado Marte!</p>
+            <button id="restart-btn" class="restart-btn">Jugar de nuevo</button>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
     <script src="assets/js/script.js"></script>
