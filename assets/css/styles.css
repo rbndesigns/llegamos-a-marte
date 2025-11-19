@@ -254,3 +254,46 @@ body {
     width: 150px;
   }
 }
+<<<<<<< HEAD
+=======
+
+/* Estilos para la imagen del minion y efecto hover */
+.minion {
+  position: fixed; /* ocupar parte de la ventana (70%) pero pegada abajo */
+  bottom: 0;
+  left: 50%;
+  /* centrar horizontalmente; la imagen queda anclada al fondo */
+  transform: translateX(-50%);
+  width: 50vw;
+  height: auto;
+  max-height: 50vh;
+  object-fit: cover;
+  /* mostrar la parte superior de la imagen (ojos) dentro del recorte */
+  object-position: 50% -400%;
+  /* transición para transform y sombra */
+  transition: transform 400ms cubic-bezier(0.2, 0.9, 0.2, 1), filter 400ms ease;
+  will-change: transform;
+  cursor: pointer;
+  z-index: -1; /* detrás del contenido (.container tiene z-index:1) */
+}
+
+.minion:hover,
+.minion:focus {
+  /* al hacer hover la imagen se amplía (scale). No la movemos en X o Y, solo escala */
+  transform: translateX(-50%) scale(1.12);
+  filter: drop-shadow(0 30px 30px rgba(0, 0, 0, 0.45));
+  z-index: 99; /* detrás del contenido (.container tiene z-index:1) */
+  object-position: 50%  10%;
+
+
+}
+
+/* Reducir el efecto en pantallas pequeñas para evitar que el zoom recorte demasiado */
+@media (max-width: 600px) {
+  .minion:hover,
+  .minion:focus {
+    transform: translateX(-50%) scale(1.06);
+    filter: drop-shadow(0 12px 14px rgba(0, 0, 0, 0.35));
+  }
+}
+>>>>>>> 1e23c467901fc8f784dd06f2edd67b1261a59e26
